@@ -1,0 +1,54 @@
+body {
+  background-image: url("https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-715144.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-color: #000;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center; }
+
+#keys {
+  padding-top: 5%;
+  width: 960px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -ms-flex-pack: justify;
+      justify-content: space-between; }
+  #keys .key {
+    border: .4rem solid #000;
+    border-radius: .5rem;
+    margin: 1rem;
+    font-size: 1.5rem;
+    padding: 1rem .5rem;
+    transition: all .07s ease;
+    width: 10rem;
+    text-align: center;
+    color: white;
+    background: rgba(0, 0, 0, 0.4);
+    text-shadow: 0 0 .5rem #000; }
+    #keys .key kbd {
+      font-size: 2em;
+      padding: 15px;
+      display: block;
+      text-align: center; }
+    #keys .key span {
+      display: block;
+      text-align: center; }
+    #keys .key .sound {
+      font-size: 1.8rem;
+      text-transform: uppercase;
+      letter-spacing: .1rem;
+      color: #ffc600; }
+
+.playing {
+  transform: scale(1.1);
+  border-color: #ffc600;
+  box-shadow: 0 0 1rem #ffc600; }
